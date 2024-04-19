@@ -1,0 +1,56 @@
+/* Estilos para el contenedor de la tabla */
+.table-container {
+  max-width: 100%;
+  overflow-x: auto; /* Agrega una barra de desplazamiento horizontal si es necesario */
+  margin: 20px; /* Añade margen alrededor de la tabla */
+  border-radius: 12px;
+}
+
+/* Estilos para la tabla */
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 12px;
+  background-color: #1a1b26; /* Fondo de la tabla */
+  color: #a9b1d6; /* Color del texto */
+}
+
+.table-container th, .table-container td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #44475a; /* Borde inferior de las celdas */
+}
+
+.table-container th {
+  background-color: #1a1b26; /* Fondo de las celdas de encabezado */
+}
+
+/* Estilos para botones */
+.button-container button {
+  background-color: #44475a;
+  color: #a9b1d6;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button-container button:hover {
+  background-color: #6272a4;
+}
+
+/* Estilos para inputs de texto */
+.table-container input[type="text"] {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #44475a;
+  background-color: #282a36;
+  color: #a9b1d6;
+  width: 100%;
+  box-sizing: border-box; /* Incluye el padding en el ancho total */
+}
+
+.table-container input[type="text"]:focus {
+  outline: none;
+  border-color: #6272a4;
+}

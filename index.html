@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabla de Servidores</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h2>Tabla de Servidores</h2>
+
+<div class="table-container"> <!-- Contenedor de la tabla -->
+    <table id="active-table">
+      <tr>
+        <th>Nombre Servidor</th>
+        <th>Estado Implementación</th>
+        <th>Versión</th>
+        <th>Direccionamiento Interno</th>
+        <th>Direccionamiento Externo Pertenece a Red</th>
+        <th>Criticidad</th>
+        <th>Monitorización</th>
+        <th>Infra Seguridad</th>
+        <th>Acciones</th>
+      </tr>
+      <!-- Filas de la tabla -->
+    </table>
+</div>
+
+<button onclick="addActive()">Agregar Servidor</button>
+
+<script src="script.js"></script>
+</body>
+</html>
