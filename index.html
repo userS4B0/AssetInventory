@@ -10,8 +10,8 @@
 
 <h2>Tabla de Servidores</h2>
 
-<div class="table-container"> <!-- Contenedor de la tabla -->
-    <table id="active-table">
+<div class="table-container"> <!-- Table container -->
+    <table id="asset-table">
       <tr>
         <th>Nombre Servidor</th>
         <th>Estado Implementación</th>
@@ -23,12 +23,13 @@
         <th>Infra Seguridad</th>
         <th>Acciones</th>
       </tr>
-      <!-- Filas de la tabla -->
+      <!-- Table rows will be inserted here dynamically -->
     </table>
 </div>
 
-<button onclick="addActive()">Agregar Servidor</button>
+<button id="add-asset-btn">Agregar Servidor</button>
 
+<!-- TODO: Implement nonce value CSP -->
 <script src="script.js"></script>
 </body>
 </html>
