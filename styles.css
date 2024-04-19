@@ -1,31 +1,31 @@
-/* Estilos para el contenedor de la tabla */
+/* Styles for the table container */
 .table-container {
   max-width: 100%;
-  overflow-x: auto; /* Agrega una barra de desplazamiento horizontal si es necesario */
-  margin: 20px; /* Añade margen alrededor de la tabla */
-  border-radius: 12px;
+  overflow-x: auto; /* Adds a horizontal scroll bar if necessary */
+  margin: 20px; /* Adds margin around the table */
+  border-radius: 12px; /* Adds border radius to the container */
 }
 
-/* Estilos para la tabla */
+/* Styles for the table */
 .table-container table {
   width: 100%;
   border-collapse: collapse;
-  border-radius: 12px;
-  background-color: #1a1b26; /* Fondo de la tabla */
-  color: #a9b1d6; /* Color del texto */
+  border-radius: 12px; /* Adds border radius to the table */
+  background-color: #1a1b26; /* Table background color */
+  color: #a9b1d6; /* Text color */
 }
 
 .table-container th, .table-container td {
   padding: 8px;
   text-align: left;
-  border-bottom: 1px solid #44475a; /* Borde inferior de las celdas */
+  border-bottom: 1px solid #44475a; /* Border bottom of the cells */
 }
 
 .table-container th {
-  background-color: #1a1b26; /* Fondo de las celdas de encabezado */
+  background-color: #1a1b26; /* Background color of header cells */
 }
 
-/* Estilos para botones */
+/* Styles for buttons */
 .button-container button {
   background-color: #44475a;
   color: #a9b1d6;
@@ -39,7 +39,7 @@
   background-color: #6272a4;
 }
 
-/* Estilos para inputs de texto */
+/* Styles for text inputs */
 .table-container input[type="text"] {
   padding: 8px;
   border-radius: 4px;
@@ -47,7 +47,7 @@
   background-color: #282a36;
   color: #a9b1d6;
   width: 100%;
-  box-sizing: border-box; /* Incluye el padding en el ancho total */
+  box-sizing: border-box; /* Includes padding in the total width */
 }
 
 .table-container input[type="text"]:focus {
